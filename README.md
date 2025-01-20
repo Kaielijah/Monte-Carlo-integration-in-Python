@@ -3,17 +3,19 @@
 1.	Homebrew
 - Install: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 - Check version: ```brew –version```
--- ```Homebrew 4.4.8```
+    - ```Homebrew 4.4.8```
+
 2.	Python3
-- ```python3 –version```
--- Python 3.13.0
+- ```python3 –version```  
+    - Python 3.13.0
 - ```brew install python```
+
 3.	pip Python package manager
 - ```pip3 –version```
--- ```pip 24.2 from /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pip (python 3.13)```
+    - ```pip 24.2 from /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pip (python 3.13)```
 - Install: ```python3 -m ensurepip --default-pip```
 
-4.Pyenv - For Managing Multiple Python Versions (Optional)
+4. Pyenv - For Managing Multiple Python Versions (Optional)
 - Check version: ```pyenv –version```
 - Install:	```brew install pyenv```
 
@@ -33,12 +35,11 @@ pip install --upgrade pip setuptools wheel```
 - Install: ```pip install matplotlib```
 
 9. ZSH system check (Optional) Depends on system . 
-- Ensure python Points to python3:
-```which python3 which pip3 echo $PATH```
--- Open .zshrc in a text editor: ```nano ~/.zshrc```
--- Add this line at the bottom: ```alias python="python3"```
--- Save the file (press CTRL + X, then Y, then Enter).
--- source ~/.zshrc
+- Ensure python Points to python3: ```which python3 which pip3 echo $PATH```
+    - Open .zshrc in a text editor: ```nano ~/.zshrc```
+    - Add this line at the bottom: ```alias python="python3"```
+    - Save the file (press CTRL + X, then Y, then Enter).
+- source ~/.zshrc
 
 10. Terminal commands to create local folder
 - ```cd desktop/[folder]```
@@ -46,13 +47,13 @@ pip install --upgrade pip setuptools wheel```
 - ```cd ~/python-projects```
 - ```python3 -m venv venv```
 - ```source venv/bin/activate``` 
--- This is to activiate virtual environment
+    - This is to activates virtual environment
 
 11. Create Python file in VS with terminal
 - ```touch main.py``` or create file 
 - This is to open the file: ```code main.py```
 - VS Terminal: ```python3 main.py``` 
-    -- This is to run the script in terminal to generate output
+    - This is to run the script in terminal to generate output
 - Example of installing Python packages in env: ```pip install numpy pandas requests```
 - Check the packages installed: ```pip list```
 
