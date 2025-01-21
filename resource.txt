@@ -1,0 +1,18 @@
+# Resources citations
+CERMICS. (n.d.). Lecture 1: Monte Carlo method 
+𝑃
+𝐷
+𝐹
+PDF. Retrieved from https://cermics.enpc.fr/~bl/Halmstad/monte-carlo/lecture-1.pdf
+
+GeeksforGeeks. (n.d.). How to do calculus with Python? Retrieved from https://www.geeksforgeeks.org/how-to-do-calculus-with-python/
+
+Investopedia. (n.d.). Introduction to Monte Carlo. Retrieved from https://www.investopedia.com/articles/07/monte_carlo_intro.asp
+
+Javatpoint. (n.d.). Monte Carlo integration in Python. Retrieved from https://www.javatpoint.com/monte-carlo-integration-in-python
+
+LibreTexts. (n.d.). The Monte Carlo simulation method. Retrieved from https://stats.libretexts.org/Bookshelves/Computing_and_Modeling/RTG%3A_Simulating_High_Dimensional_Data/The_Monte_Carlo_Simulation_Method
+
+Persuasive Python. (n.d.). 14. Integration. Retrieved from https://www.persuasivepython.com/14-integration
+
+Wikipedia. (n.d.). Monte Carlo method. Retrieved from https://en.wikipedia.org/wiki/Monte_Carlo_method
