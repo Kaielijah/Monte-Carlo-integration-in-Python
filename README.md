@@ -91,13 +91,13 @@ State how to evaluate 𝐼⁡using the sample points from this distribution.
 the accuracy.
 5) Compare two sets of 1000 estimates of 𝐼 obtained by methods Parts 2) and 4), respectively,
 using appropriate statistical measures. Which numerical integration method do you prefer and
-why?
+why?  
 Note: For implementation of numerical integrations in parts 2) and 4), you are required to write an
 R or Python code (or other computer languages that you are familiar with), which should be
 included in your answers together with the relevant computer outcomes.
 a. To generate a size-200 random sample (i.e., 200 random numbers) from a distribution, say
 Uniform(0,1), in R, you can use
-sample<-runif(200, min=0, max=1)
+sample<-runif(200, min=0, max=1) . 
 b. To generate random numbers from a distribution in (1), you need to use the probability
 transform as follows. Suppose that 𝐹 𝑋(𝑥) is the cdf of the distribution of random variable 𝑋,
 Let 𝑌 = 𝐹 𝑋(𝑋). Then 𝑌~𝑈𝑛𝑖𝑓𝑜𝑟𝑚(0, 1). To generate random numbers of 𝑋, we first
