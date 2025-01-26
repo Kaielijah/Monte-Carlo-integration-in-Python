@@ -142,7 +142,7 @@ nonuniform_mean = monte_new_mean_i_value  # Mean from Part 4
 nonuniform_variance = monte_new_var_i_value  # Variance from Part 4
 
 # Print results for comparison to address part 5
-print("Comparison of Monte Carlo Integration Results:")
+print("Quesion 1 Part 5: Comparison of Monte Carlo Integration Results:")
 print("1. Uniform(0,1) Sampling:")
 print("   Mean of Estimates:", uniform_mean)
 print("   Variance of Estimates:", uniform_variance)
@@ -167,4 +167,4 @@ else:
 # # Uniform Sampling: Variance = 0.0001747
 # # Non-Uniform Sampling: Variance = 0.0000042
 # Since the variance for Non-Uniform Sampling is smaller, this shows that the result is more accurate. 
-# Non- Uniform sampling would be more efficient as it samples more points where the integrand contributes more to integral. This improves precision without the need of more samples. 
+# Non- Uniform sampling would be more efficient as it samples more points where the integrand contributes more to integral. This improves precision without the need of more samples.
